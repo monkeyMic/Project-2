@@ -10,6 +10,7 @@ $color-orange: #F28B64
 .container
     max-width: 1140px
     margin: 0 auto
+    position: relative
 
 .main-section
     position: relative
@@ -233,4 +234,43 @@ $color-orange: #F28B64
         font-size: 18px
         span
             font-size: 48px
+
+.third-section
+    min-height: 640px
+    background: #F0F0F0
+    z-index: 0
+    position: relative
+    overflow: hidden
+    &__container
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 167px
+        padding-top: 46px
+    &__right-wrapper
+        max-width: 480px
+    &__right-title
+        margin-bottom: 20px
+    &__text
+        margin-bottom: 30px
+        font-size: 18px
+    &__first-elipse
+        position: absolute
+        top: 255px
+        left: 110px
+        z-index: -1
+    &__figure
+        position: absolute
+        top: 325px
+        left: 15px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        right: -120px
+        top: -120px
+
+.title__hr_top
+    bottom: 75px
+
 

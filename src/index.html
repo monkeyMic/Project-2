@@ -8,6 +8,24 @@
     <script src="https://kit.fontawesome.com/6f8f3aba2b.js" crossorigin="anonymous"></script>
     <title>Уроки игры на гитаре</title>
     <meta name="description" content="Лучший репетитор игры на гитаре">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/fav-icon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/fav-icon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/fav-icon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/fav-icon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/fav-icon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/fav-icon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/fav-icon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/fav-icon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/fav-icon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/fav-icon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/fav-icon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/fav-icon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/fav-icon//favicon-16x16.png">
+    <link rel="manifest" href="icons/fav-icon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/fav-icon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -20,9 +38,9 @@
             </header>
             <nav class="main-section__nav nav-menu">
                 <ul class="nav-menu__list">
-                    <li class="nav-menu__list-item">Обо мне</li>
-                    <li class="nav-menu__list-item">Занятия</li>
-                    <li class="nav-menu__list-item">Запись</li>
+                    <li class="nav-menu__list-item"><a href="#about-me">Обо мне</a></li>
+                    <li class="nav-menu__list-item"><a href="#lessons">Занятия</a></li>
+                    <li class="nav-menu__list-item"><a href="#">Запись</a></li>
                 </ul>
             </nav>
         </div>
@@ -75,7 +93,7 @@
     </section>
 
     <!-- Second section -->
-    <section class="second-section">
+    <section id="about-me" class="second-section">
         <div class="container second-section__container">
             <!-- Title -->
             <h2 class="second-section__title title">Преподаю
@@ -130,34 +148,45 @@
             </div>
         </div>
     </section>
-    <section class = "third-section">
+    <!-- Third section -->
+    <section id="lessons" class="third-section">
         <div class="container third-section__container">
 
             <!-- Left wrapper -->
             <div class="third-section__left-wrapper">
                 <!-- Title -->
-            <h3 class="third-section__left-title title">
-                <hr class="title__hr">Обучение
-            </h3>
+                <h3 class="third-section__left-title title">
+                    <hr class="title__hr">Обучение
+                </h3>
             </div>
 
             <!-- Right wrapper -->
             <div class="third-section__right-wrapper">
-                    <!-- Title -->
-            <h4 class="third-section__right-title title">
-                <hr class="title__hr title__hr_top">Готовлю <br>виртуозов
-            </h4>
-            <p class="third-section__text">Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет оценить значение дальнейших направлений развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа систем массового участия. Задача организации, в особенности же рамки и место обучения кадров требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.
-                <br> <br>
-            Разнообразный и богатый опыт рамки и место обучения кадров позволяет выполнять важные задания по разработке направлений прогрессивного развития. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа дальнейших направлений развития. Равным образом дальнейшее развитие различных форм деятельности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки форм развития. 
-            </p>
-            <div class="right-wrapper__button buttons">
-                <button class="buttons__main-btn">Забронировать <br>урок</button>
-                <div class="right-wrapper__icon-btn buttons__icon-btn">
-                    <img src="icons/chat.svg" alt="chat-icon">
-                    <p class="buttons__text">Есть <br>вопросы?</p>
+                <!-- Title -->
+                <h4 class="third-section__right-title title">
+                    <hr class="title__hr title__hr_top">Готовлю <br>виртуозов
+                </h4>
+                <p class="third-section__text">Разнообразный и богатый опыт реализация намеченных плановых заданий
+                    позволяет оценить значение дальнейших направлений развития. Идейные соображения высшего порядка, а
+                    также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас
+                    анализа систем массового участия. Задача организации, в особенности же рамки и место обучения кадров
+                    требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.
+                    <br> <br>
+                    Разнообразный и богатый опыт рамки и место обучения кадров позволяет выполнять важные задания по
+                    разработке направлений прогрессивного развития. Равным образом постоянное
+                    информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа дальнейших
+                    направлений развития. Равным образом дальнейшее развитие различных форм деятельности способствует
+                    подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Идейные
+                    соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей
+                    деятельности представляет собой интересный эксперимент проверки форм развития.
+                </p>
+                <div class="right-wrapper__button buttons">
+                    <button class="buttons__main-btn">Забронировать <br>урок</button>
+                    <div class="right-wrapper__icon-btn buttons__icon-btn">
+                        <img src="icons/chat.svg" alt="chat-icon">
+                        <p class="buttons__text">Есть <br>вопросы?</p>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="third-section__first-elipse elipse elipse_dig">
                 <div class="elipse__subtract elipse__subtract_big">
@@ -171,7 +200,30 @@
             </div>
         </div>
     </section>
-    
+    <footer class="footer">
+        <div class="container footer__container">
+            <img src="img/neck.png" alt="guitar neck" class="footer__img">
+            <div class="footer__wrapper">
+                <h5 class="footer__title title">
+                    <hr class="title__hr title__hr_top">Запишись на <br>пробный урок
+                </h5>
+                <div class="footer__icons-box icons">
+                    <div class="icons__item">
+                        <i class="fa-brands fa-skype"></i>
+                    </div>
+                    <div class="icons__item">
+                        <i class="fa-brands fa-vk"></i>
+                    </div>
+                    <div class="icons__item">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <div class="icons__item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

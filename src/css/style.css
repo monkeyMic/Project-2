@@ -724,43 +724,44 @@ html {
 
 /* line 197, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section {
+  overflow: hidden;
   min-height: 700px;
 }
 
-/* line 199, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 200, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 202, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 203, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 204, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 205, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
   margin-bottom: 25px;
 }
 
-/* line 207, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 208, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 209, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 210, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__cards-item:last-child {
   margin-right: 0px;
 }
 
-/* line 211, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 212, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 214, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 215, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -768,7 +769,7 @@ html {
   z-index: -1;
 }
 
-/* line 219, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 220, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -776,7 +777,7 @@ html {
   z-index: -1;
 }
 
-/* line 225, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 226, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
@@ -787,12 +788,12 @@ html {
   align-items: flex-end;
 }
 
-/* line 233, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 234, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 235, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 236, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 36px;
@@ -804,41 +805,41 @@ html {
   font-weight: bold;
 }
 
-/* line 245, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 246, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .cards-item_orange {
   background: #F28B64;
 }
 
-/* line 248, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 249, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .cards-item_blue {
   background: #5290EA;
 }
 
-/* line 251, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 252, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 254, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 255, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 257, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 258, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 260, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 261, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 264, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 265, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section {
   min-height: 840px;
   background: #F0F0F0;
@@ -847,7 +848,7 @@ html {
   overflow: hidden;
 }
 
-/* line 270, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 271, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -857,23 +858,23 @@ html {
   padding-top: 46px;
 }
 
-/* line 277, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 278, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 279, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 280, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 281, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 282, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__text {
   margin-bottom: 30px;
   font-size: 18px;
 }
 
-/* line 284, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 285, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 288px;
@@ -881,7 +882,7 @@ html {
   z-index: -1;
 }
 
-/* line 289, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 290, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__figure {
   position: absolute;
   top: 368px;
@@ -889,26 +890,26 @@ html {
   z-index: -1;
 }
 
-/* line 294, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 295, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 299, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 300, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .title__hr_top {
   bottom: 75px;
 }
 
-/* line 303, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 304, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 307, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 308, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .footer__container {
   min-height: 272px;
   display: flex;
@@ -916,9 +917,37 @@ html {
   justify-content: flex-end;
 }
 
-/* line 312, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+/* line 313, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 317, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 321, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 325, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 329, ../Projects/Project-2/Project-Guitarist-portfolio-/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

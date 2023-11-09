@@ -1090,8 +1090,8 @@ html {
     width: 80px;
   }
   .main-section__first-elipse {
-    width: 95px;
-    height: 95px;
+    width: 85px;
+    height: 85px;
     top: 39px;
   }
   .main-section__second-elipse {
@@ -1099,8 +1099,8 @@ html {
     right: -79px;
   }
   .elipse__subtract {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     right: -35px;
   }
   .elipse__subtract_big {
@@ -1172,6 +1172,15 @@ html {
   }
   .buttons__text {
     font-size: 11px;
+  }
+  .title__hr {
+    width: 28px;
+  }
+  .title__hr_top {
+    bottom: 35px;
+  }
+  .second-section__title {
+    margin-bottom: 20px;
   }
 }
 

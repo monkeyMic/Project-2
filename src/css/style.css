@@ -1241,6 +1241,10 @@ html {
   .footer__img {
     width: 450px;
   }
+  .main {
+    display: flex;
+    align-items: center;
+  }
   .hamburger {
     z-index: 21;
   }

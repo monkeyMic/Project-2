@@ -1,3 +1,4 @@
+/* line 1, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,34 +20,43 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 21, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* line 25, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 html {
   height: 100%;
 }
 
+/* line 28, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 body {
   line-height: 1;
 }
 
+/* line 31, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 34, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
+/* line 37, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
+/* line 42, ../../Projects/Project-Guitarist-portfolio-/src/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*# sourceMappingURL=resets.css.map */

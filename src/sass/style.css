@@ -802,6 +802,15 @@ html {
   }
 }
 @media (max-width: 991px) {
+  .main-section {
+    min-height: 530px;
+  }
+  .main-section__first-elipse {
+    top: 70px;
+  }
+  .main-section__second-elipse {
+    top: 400px;
+  }
   .container {
     width: 720px;
   }
@@ -823,9 +832,6 @@ html {
   .right-wrapper {
     top: 75px;
     width: 300px;
-  }
-  .right-wrapper__title {
-    font-size: 60px;
   }
   .right-wrapper__text {
     font-size: 14px;
@@ -859,14 +865,331 @@ html {
     width: 250px;
     height: 250px;
   }
+  .second-section {
+    min-height: 450px;
+  }
+  .second-section__container {
+    padding-top: 20px;
+  }
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  .second-section__first-elipse {
+    right: -35px;
+  }
+  .second-section__second-elipse {
+    top: 262px;
+    left: -35px;
+  }
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  .cards-item {
+    width: 220px;
+    height: 220px;
+    margin-right: 15px;
+  }
+  .cards-item__img {
+    height: 200px;
+  }
+  .cards-item__text {
+    font-size: 22px;
+    top: 92px;
+    right: -75px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .icons-item__img {
+    width: 50px;
+  }
+  .icons-item__text {
+    font-size: 14px;
+  }
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  .third-section {
+    min-height: 700px;
+  }
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .third-section__text {
+    margin-bottom: 20px;
+  }
+  .third-section__left-title {
+    display: none;
+  }
+  .third-section__right_title {
+    margin-bottom: 10px;
+  }
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  .title__hr_top {
+    bottom: 60px;
+  }
+  .footer__container {
+    min-height: 210px;
+  }
+  .footer__img {
+    width: 500px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 767px) {
   .container {
     width: 540px;
   }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    background: #5290EA;
+    z-index: 20;
+    width: 50%;
+    transition: 0.6s all;
+  }
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .hamburger {
+    width: 30px;
+    height: 14px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+  }
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  .hamburger_active {
+    z-index: 21;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .nav-menu_active {
+    right: 0px;
+  }
+  .main-section {
+    min-height: 409px;
+  }
+  .main-section__logo {
+    width: 80px;
+  }
+  .main-section__first-elipse {
+    width: 85px;
+    height: 85px;
+    top: 39px;
+  }
+  .main-section__second-elipse {
+    top: 320px;
+    right: -79px;
+  }
+  .elipse__subtract {
+    width: 65px;
+    height: 65px;
+    right: -35px;
+  }
+  .elipse__subtract_big {
+    width: 100px;
+    height: 100px;
+  }
+  .elipse_dig {
+    width: 148px;
+    height: 148px;
+  }
+  .left-wrapper img {
+    width: 400px;
+  }
+  .left-wrapper__rectangle-blue {
+    width: 246px;
+    height: 80px;
+    top: 72px;
+    left: -27px;
+  }
+  .left-wrapper__rectangle-orange {
+    left: -21px;
+    top: 90px;
+    width: 264px;
+    height: 78px;
+  }
+  .left-wrapper__rectangle-grey {
+    left: 2px;
+    top: 104px;
+    width: 258px;
+    height: 74px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .right-wrapper {
+    top: 27px;
+    width: 200px;
+    left: 347px;
+  }
+  .right-wrapper__text {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .right-wrapper__button {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    padding-left: 0px;
+    margin-bottom: 8px;
+  }
+  .icons__item {
+    height: 23px;
+    width: 23px;
+  }
+  .icons__item i {
+    font-size: 16px;
+  }
+  .buttons__main-btn {
+    height: 36px;
+    width: 120px;
+    font-size: 11px;
+    margin-bottom: 13px;
+    margin-right: 0px;
+  }
+  .buttons__icon-btn img {
+    width: 30px;
+  }
+  .buttons__text {
+    font-size: 11px;
+  }
+  .title__hr {
+    width: 28px;
+  }
+  .title__hr_top {
+    bottom: 35px;
+  }
+  .second-section {
+    min-height: 380px;
+  }
+  .second-section__title {
+    margin-bottom: 20px;
+  }
+  .second-section__cards-box {
+    margin-bottom: 17px;
+  }
+  .second-section__cards-item {
+    height: 200px;
+    margin-right: 18px;
+  }
+  .second-section__cards-item img {
+    height: 175px;
+  }
+  .second-section .elipse {
+    width: 110px;
+    height: 110px;
+  }
+  .second-section .elipse__subtract {
+    width: 80px;
+    height: 80px;
+  }
+  .second-section__second-elipse {
+    top: 209px;
+    left: -55px;
+  }
+  .cards-item__text {
+    font-size: 20px;
+    top: 83px;
+    right: -103px;
+  }
+  .icons-item img {
+    width: 36px;
+  }
+  .icons-item__text {
+    font-size: 12px;
+  }
+  .icons-item__text span {
+    font-size: 26px;
+  }
+  .third-section {
+    min-height: 512px;
+  }
+  .third-section__text {
+    font-size: 14px;
+  }
+  .third-section__figure {
+    width: 125px;
+    top: 250px;
+    left: 38px;
+  }
+  .third-section__first-elipse {
+    top: 189px;
+    left: 75px;
+  }
+  .footer__container {
+    min-height: 186px;
+  }
+  .footer__img {
+    width: 450px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+  }
+  .hamburger {
+    z-index: 21;
+  }
 }
 @media (max-width: 575px) {
   .container {
     width: 100%;
+  }
+  .left-wrapper img {
+    display: none;
+  }
+  .left-wrapper__rectangle-orange {
+    left: 40px;
+    width: 6em;
+    height: 6em;
+  }
+  .left-wrapper__rectangle-blue {
+    width: 6em;
+    height: 6em;
+    top: 37px;
+    left: 66px;
+  }
+  .left-wrapper__rectangle-grey {
+    width: 6em;
+    height: 6em;
+    top: 112px;
+    left: 83px;
   }
 }/*# sourceMappingURL=style.css.map */
